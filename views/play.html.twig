@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Hangman</title>
+  </head>
+  <body>
+    <h2>Guess a letter!</h2>
+    <p>{{game.getDisplay}}</p>
+    <form action='/guess' method='post'>
+        <label for='takeGuess'>Enter a letter to take a guess: </label>
+        <input id='takeGuess' name='takeGuess' type='text'><br>
+        <button type="submit">I'm Feeling Lucky!</button>
+    </form>
+  </body>
+</html>
